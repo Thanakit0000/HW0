@@ -1,0 +1,121 @@
+* {
+    margin: 4px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 70%;
+    min-height: 0vh;
+    padding: 0%;
+    background-image: linear-gradient(rgba(0, 8, 51, 0.9), rgba(0, 8, 51, 0.9), url(https://www.freepnglogos.com/uploads/search-png/search-file-ballonicon-svg-wikimedia-commons-5.png));
+    background-position: right;
+    background-size: cover;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+.search {
+    width: 50%;
+    max-width: 300px;
+    background: rgba(129, 203, 118, 0.51);
+    display: flex;
+    align-items: right;
+    border-radius: 60px;
+    padding: 1px 2px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+
+.search input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 5px 20px;
+    font-size: 16px;
+    color: rgba(4, 28, 43, 0.818);
+}
+
+::placeholder {
+    color: rgba(0, 18, 6, 0.484);
+}
+
+.search button img {
+    width: 35px;
+    margin-top: -3px;
+    margin-left: -8px;
+}
+
+.search button {
+    border: 0;
+    border-radius: 70%;
+    width: 35px;
+    height: 35px;
+    background: rgba(129, 203, 118, 0.51);
+    cursor: pointer;
+}
+
+.square {
+    background-color: rgba(129, 203, 118, 0.51);
+    width: 977px;
+    margin-left: 560px;
+    height: 520px;
+    margin-top: 200px;
+}
+
+.square2 {
+    background-color: rgba(129, 203, 118, 0.51);
+    width: 977px;
+    margin-left: -1400px;
+    height: 520px;
+    margin-top: 120px;
+    border-radius: 20px;
+}
+
+.img1 {
+    position: relative;
+    z-index: 2;
+    top: -260px;
+    left: -175px;
+}
+
+.img2 {
+    position: relative;
+    z-index: 1;
+    top: -190px;
+    left: -190px;
+}
+
+.img3 {
+    position: relative;
+    top: -325px;
+    left: 235px;
+}
+
+.img4 {
+    position: relative;
+    top: -550px;
+    left: 35px;
+}
+
+.pic1 {
+    width: 250px;
+    height: 250px;
+    margin-left: 180px;
+    margin-top: -15px;
+}
+
+.pic2 {
+    width: 250px;
+    height: 250px;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+.pic3 {
+    width: 250px;
+    height: 250px;
+    margin-left: 625px;
+    margin-top: 20px;
+}
